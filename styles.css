@@ -183,6 +183,12 @@ h2 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.86);
   box-shadow: var(--shadow);
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.profile-card:hover {
+  border-color: rgba(15, 118, 110, 0.55);
+  transform: translateY(-2px);
 }
 
 .avatar {
